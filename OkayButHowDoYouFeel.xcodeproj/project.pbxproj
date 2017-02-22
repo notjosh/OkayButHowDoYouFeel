@@ -11,6 +11,8 @@
 		426278DB1E5E279600DDD591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426278DA1E5E279600DDD591 /* ViewController.swift */; };
 		426278DD1E5E279600DDD591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426278DC1E5E279600DDD591 /* Assets.xcassets */; };
 		426278E01E5E279600DDD591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426278DE1E5E279600DDD591 /* Main.storyboard */; };
+		426278E91E5E27E900DDD591 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426278E81E5E27E900DDD591 /* SpriteKit.framework */; };
+		4262790C1E5E354E00DDD591 /* FeelingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4262790B1E5E354E00DDD591 /* FeelingScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		426278DC1E5E279600DDD591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		426278DF1E5E279600DDD591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		426278E11E5E279600DDD591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426278E81E5E27E900DDD591 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		4262790B1E5E354E00DDD591 /* FeelingScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeelingScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				426278E91E5E27E900DDD591 /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,7 @@
 			children = (
 				426278D71E5E279600DDD591 /* OkayButHowDoYouFeel */,
 				426278D61E5E279600DDD591 /* Products */,
+				426278E71E5E27E900DDD591 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,8 +63,17 @@
 				426278DC1E5E279600DDD591 /* Assets.xcassets */,
 				426278DE1E5E279600DDD591 /* Main.storyboard */,
 				426278E11E5E279600DDD591 /* Info.plist */,
+				4262790B1E5E354E00DDD591 /* FeelingScene.swift */,
 			);
 			path = OkayButHowDoYouFeel;
+			sourceTree = "<group>";
+		};
+		426278E71E5E27E900DDD591 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				426278E81E5E27E900DDD591 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4262790C1E5E354E00DDD591 /* FeelingScene.swift in Sources */,
 				426278DB1E5E279600DDD591 /* ViewController.swift in Sources */,
 				426278D91E5E279600DDD591 /* AppDelegate.swift in Sources */,
 			);
