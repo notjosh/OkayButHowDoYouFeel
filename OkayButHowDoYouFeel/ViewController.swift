@@ -18,13 +18,13 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let word = "🌽🐴🌽🚀🌽💦🌽📛🌽🔥🌽🇦🇺🌽FUCK"
+        let word = "FUCKFUCKFUCKFUCKFUCKFUCKFUCK"
 
         let whatever = whtaever(word: word)
         let slices = whatever.slices
 
         let size16x9 = CGSize(width: whatever.size.height * 16/9 * 2,
-                              height: whatever.size.height)
+                              height: whatever.size.height * 1.5)
 
         let scene = AnotherFeelingScene(size: size16x9, sliceImages: slices)
         scene.scaleMode = .aspectFit

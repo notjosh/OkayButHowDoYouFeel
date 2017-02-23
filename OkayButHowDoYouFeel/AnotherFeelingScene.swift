@@ -80,7 +80,10 @@ class AnotherFeelingScene: SKScene {
             }
 
             let texture = SKTexture(image: image)
-            let slice = AnotherFeelingSliceSprite(texture: texture, pixels: pixels, size: image.size, column: CGFloat(index))
+            let slice = AnotherFeelingSliceSprite(texture: texture,
+                                                  pixels: pixels,
+                                                  size: image.size,
+                                                  column: CGFloat(index))
             slices.append(slice)
         }
 
@@ -114,7 +117,7 @@ class AnotherFeelingScene: SKScene {
                 return
             }
 
-            if slice.position.x / size.width < 0.00 {
+            if slice.position.x / size.width < 0.5 {
                 slice.removeAllActions()
                 slice.removeFromParent()
 
@@ -123,15 +126,16 @@ class AnotherFeelingScene: SKScene {
                         return
                     }
 
+                    pixel.removeAllActions()
+
                     addChild(pixel)
-                    slice.zPosition = 100
                     pixel.alpha = 1
                     pixel.scale(to: pixel.originalSize)
                     pixel.position = CGPoint(x: slice.position.x,
-                                             y: pixel.originalPosition.y)
+                                             y: pixel.originalPosition.y + (size.height / 2 - slice.size.height / 2))
 
-                    let vector = CGVector(dx: CGFloat(arc4random_uniform(UInt32(size.width))),
-                                          dy: CGFloat(arc4random_uniform(UInt32(size.height))) - size.height / 2)
+                    let vector = CGVector(dx: CGFloat(arc4random_uniform(UInt32(size.width))) - size.width * 0.95,
+                                          dy: CGFloat(arc4random_uniform(UInt32(size.height/2))) - size.height/2 * 0.5)
                     
                     let group = SKAction.group([
                         SKAction.move(by: vector, duration: DecayDuration),
