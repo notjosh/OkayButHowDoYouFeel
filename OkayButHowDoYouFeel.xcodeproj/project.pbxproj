@@ -13,6 +13,7 @@
 		426278E01E5E279600DDD591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426278DE1E5E279600DDD591 /* Main.storyboard */; };
 		426278E91E5E27E900DDD591 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426278E81E5E27E900DDD591 /* SpriteKit.framework */; };
 		4262790C1E5E354E00DDD591 /* FeelingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4262790B1E5E354E00DDD591 /* FeelingScene.swift */; };
+		42D2BFB81E5F78970061701B /* AnotherFeelingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D2BFB71E5F78970061701B /* AnotherFeelingScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		426278E11E5E279600DDD591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		426278E81E5E27E900DDD591 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		4262790B1E5E354E00DDD591 /* FeelingScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeelingScene.swift; sourceTree = "<group>"; };
+		42D2BFB71E5F78970061701B /* AnotherFeelingScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherFeelingScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				426278DE1E5E279600DDD591 /* Main.storyboard */,
 				426278E11E5E279600DDD591 /* Info.plist */,
 				4262790B1E5E354E00DDD591 /* FeelingScene.swift */,
+				42D2BFB71E5F78970061701B /* AnotherFeelingScene.swift */,
 			);
 			path = OkayButHowDoYouFeel;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4262790C1E5E354E00DDD591 /* FeelingScene.swift in Sources */,
+				42D2BFB81E5F78970061701B /* AnotherFeelingScene.swift in Sources */,
 				426278DB1E5E279600DDD591 /* ViewController.swift in Sources */,
 				426278D91E5E279600DDD591 /* AppDelegate.swift in Sources */,
 			);
@@ -305,6 +309,7 @@
 				426278E61E5E279600DDD591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

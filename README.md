@@ -12,7 +12,7 @@ I've never touched SpriteKit before today. There are some (probably) very undesi
 
 ## What Job?
 
-![](http://hi.notjo.sh/2g0o2I0V391N/download/Screen%20Recording%202017-02-22%20at%2011.55%20pm.gif)
+![](http://hi.notjo.sh/1q2Z3o1y0B2K/download/Screen%20Recording%202017-02-23%20at%2011.24%20pm.gif)
 
 ## Alright.
 
